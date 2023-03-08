@@ -1,0 +1,35 @@
+--------------- LABO 02 LOCATORS ----------------------------
+
+1:
+xpath         //a[@data-test="site-logo"] 
+CSS selector    a[data-test="site-logo"]
+
+2
+xpath         //div[@data-test="main-menu-item"]/button[@aria-label="Para equipos: Abrir submenú"]
+CSS selector    div[data-test="main-menu-item"]>button[aria-label="Para equipos: Abrir submenú"]
+
+3.
+xpath         //a[@data-test="site-header-cart-action" and @aria-label="Ir a la tienda"]
+CSS selector    a[data-test="site-header-cart-action"][aria-label="Ir a la tienda"]
+
+4.
+xpath          //a[.="Descargar" and  contains(@class,"mode_primary")]
+CSS selector     .menu-second__download-button
+
+
+5. 
+xpath         //*[name()='use' and contains(@href,'#collabora')]
+CSS selector    a[href='/es-es/idea/features#collaborative']
+
+6. xpath      //a[.='IntelliJ Profiler']
+
+7. xpath     //div[@class='wt-offset-top-32 comparison-card__button']//button[@type='button'][normalize-space()='.exe']
+
+8
+xpath        //span[@class='_wtDownloadButton_5323e wt-offset-top-32']/a[.='Descargar']
+
+9 
+xpath        //a[normalize-space()='Comparar ediciones']
+
+10
+xpath        //span[@class='wt-privacy-notice__tooltip-content']
